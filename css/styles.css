@@ -39,6 +39,8 @@ table{
     cursor: pointer;
   
   }
+
+ 
   
  
   
@@ -46,6 +48,8 @@ table{
     
     position: relative;
     cursor: pointer;
+    border-style: none;
+    
   }
 
   #rel{
@@ -74,4 +78,28 @@ table{
 
   #lettercolor{
     background-color: #e7d6c8;
+  }
+
+  .black{
+    background-color: black;
+    color: aliceblue;
+    
+  }
+
+  .blackBorder{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+    
+  }
+
+  .normal{
+    background-color: white;
+    color: black;
+  }
+
+  .normalMode{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
   }
