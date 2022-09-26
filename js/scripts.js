@@ -96,6 +96,27 @@ $(document).ready(function () {
             $("#height1").fadeIn();
             $("#reveal1").fadeOut();
         })
+
+        $("#darkMode").click(function() {
+
+            $("body").removeClass("normal")
+            $(".white").removeClass("normalMode")
+
+            $("body").addClass("black")
+            $(".white").addClass("blackBorder")
+        })
+
+        $("#normalMode").click(function() {
+
+            $("body").removeClass("black")
+            $(".white").removeClass("blackBorder")
+
+            $("body").addClass("normal")
+            $(".white").addClass("normalMode")
+
+        })
+
+       
     });
 
 
