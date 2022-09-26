@@ -1,0 +1,77 @@
+table{
+    border:1px solid;
+    border-radius: round;
+}
+
+ td{
+    
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texting{
+    text-align: justify;
+}
+
+#hide{
+    display:none;
+}
+
+
+/* flash card styles */
+.cursive{
+    font-family: cursive;
+  }
+  
+  
+  
+  #reveal1{
+    display:none;
+    height: 100vh;
+    
+    background-color: aqua;
+   
+    
+    
+    width: 100%;
+    cursor: pointer;
+  
+  }
+  
+ 
+  
+  #height1{
+    
+    position: relative;
+    cursor: pointer;
+  }
+
+  #rel{
+    position: relative;
+    
+  }
+
+  #pos{
+    position: absolute;
+    bottom:-10px;
+    right:20px;
+    background-color: blue;
+    color: white;
+  }
+
+  #pos1{
+    position: absolute;
+    top:-20px;
+    right:0px;
+    background-color: aqua;
+  }
+  
+ 
+
+  /* end flash card styles */
+
+  #lettercolor{
+    background-color: #e7d6c8;
+  }
