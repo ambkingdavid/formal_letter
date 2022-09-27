@@ -15,8 +15,16 @@ table{
     text-align: justify;
 }
 
-#hide{
+.hide-1{
     display:none;
+}
+
+.hide-2{
+  display:none;
+}
+
+.hide-3{
+  display:none;
 }
 
 
@@ -27,7 +35,33 @@ table{
   
   
   
-  #reveal1{
+  .form1{
+    display:none;
+    height: 100vh;
+    
+    background-color: aqua;
+   
+    
+    
+    width: 100%;
+    cursor: pointer;
+  
+  }
+
+  .form2{
+    display:none;
+    height: 100vh;
+    
+    background-color: aqua;
+   
+    
+    
+    width: 100%;
+    cursor: pointer;
+  
+  }
+
+  .form3{
     display:none;
     height: 100vh;
     
@@ -66,6 +100,20 @@ table{
   }
 
   #pos1{
+    position: absolute;
+    top:-20px;
+    right:0px;
+    background-color: aqua;
+  }
+
+  #pos2{
+    position: absolute;
+    top:-20px;
+    right:0px;
+    background-color: aqua;
+  }
+
+  #pos3{
     position: absolute;
     top:-20px;
     right:0px;
